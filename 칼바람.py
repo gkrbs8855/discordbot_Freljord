@@ -1,9 +1,11 @@
+import os
+from distutils.sysconfig import PREFIX
 import random
 import discord
 from discord.ext import commands
 
 
-token= "MTA5NTg5OTU5MDI5MDU3MTM3NQ.Gxi8Es.QwS48RM0mu5NVQLvGYIgaeMq_S4OjXZAAWKGwY"
+token= os.environ['TOKEN']
 
 champs = ['가렌',
 '갈리오',
